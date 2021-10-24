@@ -1,6 +1,14 @@
 @import '../container/Layout/_Layout.scss';
+@import '../container/Header/Header.scss';
+@import '../container/Announcement/Announcement.scss';
 
 body{
     margin: 0;
 /*     background-color: brown; */
+font-family: "DIN Next",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    background: #f1f1f1;
+    line-height: 1.65;
 }

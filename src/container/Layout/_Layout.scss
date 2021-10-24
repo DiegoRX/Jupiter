@@ -1,11 +1,16 @@
 .Layout {
   display: grid;
-  min-height: 100vh;
-  grid-template-rows: 4em auto 8rem;
+
+  
   grid-template-areas:
+    "announcement"
     "header"
     "main"
     "footer";
+  & > announcement {
+      grid-area: announcement;
+      height: 14px;
+    }
   & > header {
     grid-area: header;
   }
@@ -19,7 +24,7 @@
 }
 
 @media (max-width: 768px) {
-  .Layout {
-    grid-template-rows: 6em auto 50vh;
-  }
+  // .Layout {
+  //   grid-template-rows: 6em auto 50vh;
+  // }
 }
